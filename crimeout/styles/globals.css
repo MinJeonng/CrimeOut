@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.custom-rounded {
+  @apply rounded-r-md rounded-bl-md;
+  @apply inline-flex bg-white p-2 mb-4;
+}
+
+/* .custom-li {
+  @apply p-2 inline-flex 
+} */
