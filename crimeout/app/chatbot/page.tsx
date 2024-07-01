@@ -24,7 +24,7 @@ export default function ChatBotPage() {
     setChatList([initialMsg]);
   }, []);
 
-  const menuFunc = (msg: string) => {
+  const menuFunc = async (msg: string) => {
     let responseText = '';
     switch (msg) {
       case '피싱, 스미싱 문자 확인하기':
